@@ -1,0 +1,42 @@
+//1
+let quadrado = function(num){
+    return num * num
+} 
+console.log(quadrado(4));
+
+//2
+let saudacao = function(nome){
+   return "Olá, ${nome}!"; 
+}
+console.log(saudacao("Maria"));
+
+//3
+let soma = function(a,b){
+    return a + b;
+}
+console.log(soma(10, 5))
+
+//4
+let verificaPar = function(num){
+     return num % 2 === 0; 
+}
+console.log(verificaPar(6));
+
+//5
+let calculaF = function(n){
+     if (n === 0) return 1; 
+    return n * calculaF(n - 1); 
+}
+console.log(calculaF(5));
+
+//6
+let dobro = function(array){
+     return array.map(num => num * 2);
+}
+console.log(dobro([1, 2, 3]));
+
+//7
+let juntaS = function(str1, str2){
+    return str1 + str2; 
+}
+console.log(juntaS("Ola"," Mundo"));
