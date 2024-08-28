@@ -1,0 +1,15 @@
+//1
+const quadrado = num => num * num;
+console.log(quadrado(4))
+
+//2
+const soma = (a, b) => a + b;
+console.log(soma(5, 3));
+
+//3
+const saudacao = () => "Olá, mundo!";
+console.log(saudacao());
+
+//4
+const multiplicarP = num => {let resultado = num * 2; return resultado;}
+console.log(multiplicarP(7));
